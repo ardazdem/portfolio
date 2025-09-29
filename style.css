@@ -675,13 +675,13 @@ footer {
 
 .tags .tag:nth-child(1) { bottom: 480px; left: 0rem;}
 .tags .tag:nth-child(2) { bottom: 360px; left: 2rem;}
-.tags .tag:nth-child(3) { bottom: 420px; left: 8rem;}
-.tags .tag:nth-child(4) { bottom: 300px; left: 7rem;}
+.tags .tag:nth-child(3) { bottom: 420px; left: 4rem;}
+.tags .tag:nth-child(4) { bottom: 300px; left: 3.5rem;}
 .tags .tag:nth-child(5) { bottom: 240px; left: 0rem;}
-.tags .tag:nth-child(6) { bottom: 180px; left: 4rem;}
-.tags .tag:nth-child(7) { bottom: 120px; right: 6rem;}
+.tags .tag:nth-child(6) { bottom: 180px; left: 2rem;}
+.tags .tag:nth-child(7) { bottom: 120px; right: 3rem;}
 .tags .tag:nth-child(8) { bottom: 60px; right: 5rem;}
-.tags .tag:nth-child(9) { bottom: 0px; left: 2rem;}
+.tags .tag:nth-child(9) { bottom: 0px; left: 0rem;}
 
   .about-grid {
     gap: 4rem;
