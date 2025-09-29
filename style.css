@@ -669,6 +669,10 @@ footer {
 
 @media (max-width: 512px) {
 
+  .hero {
+    padding: 2rem 2.2rem;
+  }
+
   .tags {
   height: 540px;
 }
