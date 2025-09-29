@@ -667,3 +667,37 @@ footer {
 
 }
 
+@media (max-width: 512px) {
+
+  .about-grid {
+    gap: 4rem;
+  }
+
+  .about-intro p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 5rem;
+  }
+
+  .about-grid ul {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .about-intro h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+
+  .about-grid-right-last {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 6rem;
+  }
+
+  .about-download a {
+    font-size: clamp(2rem, 10vw, 14rem);
+    width: 100%;
+  }
+
+}
