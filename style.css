@@ -670,7 +670,7 @@ footer {
 @media (max-width: 512px) {
 
   .hero {
-    padding: 2rem 2.2rem;
+    margin-bottom: 4rem;
   }
 
   .tags {
