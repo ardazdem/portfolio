@@ -164,19 +164,6 @@ section {
   position: relative;
 }
 
-.project-card-bg {
-  width: 100%;
-  height: auto;
-  padding: 250x 350px;
-  background-image: var(--bg);
-  background-size: cover;
-  background-position: center top;
-  transition: filter 0.2s ease;
-  z-index: 0;
-}
-
-
-
 .card-link {
   text-decoration: none;
   color: inherit;
