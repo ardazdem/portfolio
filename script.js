@@ -46,3 +46,11 @@ viewAll.addEventListener('mouseleave', () => {
   void viewAll.offsetWidth;
   viewAll.classList.add('hovered');
 });
+
+const downloadLink = document.querySelector('.about-download a');
+
+downloadLink.addEventListener('mouseleave', () => {
+  downloadLink.classList.remove('hovered');
+  void downloadLink.offsetWidth; // forces reflow
+  downloadLink.classList.add('hovered');
+});
