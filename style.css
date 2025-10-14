@@ -117,12 +117,35 @@ header {
 }
 
 .hero-image {
-  max-width: 360px;
-  max-height: 360px;
+  max-width: 480px;
+  max-height: 480px;
   object-fit: contain;
   align-self: flex-end;
   margin-left: 2rem;
+  cursor: pointer;
 
+}
+
+.hero-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.name-tag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  background: #8b8b8b;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  pointer-events: none; 
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+  white-space: nowrap;
 }
 
 section {
