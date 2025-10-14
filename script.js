@@ -14,7 +14,7 @@ const nameTag = container.querySelector('.name-tag');
 
 let mouseX = 0, mouseY = 0;
 let tagX = 0, tagY = 0;
-const offsetY = -30; // makes tag appear slightly above cursor
+const offsetY = -30; 
 
 const follow = () => {
   tagX += (mouseX - tagX) * 0.15;
