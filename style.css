@@ -496,6 +496,14 @@ footer {
   margin-bottom: 6rem;
 }
 
+.about-skills h4{
+  margin-bottom: 0.5rem;
+}
+
+.about-skills h6 {
+  padding: 3.3rem 0 0 0;
+}
+
 .about-grid-right {
   display: flex;
   flex-direction: column;
