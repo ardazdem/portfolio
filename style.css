@@ -365,7 +365,7 @@ footer {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   gap: 2rem;
-  margin-bottom: 8rem;
+  margin-bottom: 6rem;
 }
 
 .footer-intro h2 {
@@ -417,7 +417,7 @@ footer {
 
 .copyright {
   position: relative;
-  bottom: 1rem;
+  bottom: 0;
   left: 0;  
 }
 
@@ -425,6 +425,8 @@ footer {
   color: #ffffff;
   font-size: 0.8rem;
   font-weight: 500;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .about {
@@ -501,7 +503,7 @@ footer {
 }
 
 .about-skills h6 {
-  padding: 3.3rem 0 0 0;
+  margin: 3.3rem 0 0 0;
 }
 
 .about-grid-right {
@@ -571,7 +573,7 @@ footer {
 }
 
 .about-download {
-  margin: 8rem 2.2rem 12rem 2.2rem;
+  margin: 8rem 0 12rem 0;
   padding: 0;
   width: 100%;
 }
